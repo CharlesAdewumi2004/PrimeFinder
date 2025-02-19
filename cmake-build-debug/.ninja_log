@@ -1,0 +1,9 @@
+# ninja log v6
+2	935	1739995746046439100	CMakeFiles/prime_counter.dir/src/prime_counter.cpp.o	ceaa7462fa347b71
+937	960	1739995746980504882	libprime_counter.a	c86a2378ae7d71b4
+4	1081	1739995746047439170	examples/CMakeFiles/example_usage.dir/example_usage.cpp.o	244dd14f9b4b65bd
+1081	1336	1739995747124515049	examples/example_usage	d0f0ea7f1771917d
+5	931	1739996132857790109	CMakeFiles/prime_counter.dir/src/prime_counter.cpp.o	ceaa7462fa347b71
+5	53	1739996141493878968	libprime_counter.a	c86a2378ae7d71b4
+7	1220	1739996141495878991	examples/CMakeFiles/example_usage.dir/example_usage.cpp.o	244dd14f9b4b65bd
+1220	1440	1739996142708893020	examples/example_usage	d0f0ea7f1771917d

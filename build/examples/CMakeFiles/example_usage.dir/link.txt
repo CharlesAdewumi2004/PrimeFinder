@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/example_usage.dir/example_usage.cpp.o -o example_usage  ../libprime_counter.a /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 

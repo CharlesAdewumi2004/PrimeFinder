@@ -1,0 +1,5 @@
+if(EXISTS "/home/charlie/PersonalProjects/PrimeFinder/cmake-build-debug/tests/test_prime_counter[1]_tests.cmake")
+  include("/home/charlie/PersonalProjects/PrimeFinder/cmake-build-debug/tests/test_prime_counter[1]_tests.cmake")
+else()
+  add_test(test_prime_counter_NOT_BUILT test_prime_counter_NOT_BUILT)
+endif()

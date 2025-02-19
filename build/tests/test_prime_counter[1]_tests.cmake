@@ -1,0 +1,7 @@
+add_test([=[PrimeCounterTest.BasicRanges]=]  /home/charlie/PersonalProjects/PrimeFinder/build/tests/test_prime_counter [==[--gtest_filter=PrimeCounterTest.BasicRanges]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PrimeCounterTest.BasicRanges]=]  PROPERTIES WORKING_DIRECTORY /home/charlie/PersonalProjects/PrimeFinder/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[PrimeCounterTest.EdgeCases]=]  /home/charlie/PersonalProjects/PrimeFinder/build/tests/test_prime_counter [==[--gtest_filter=PrimeCounterTest.EdgeCases]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PrimeCounterTest.EdgeCases]=]  PROPERTIES WORKING_DIRECTORY /home/charlie/PersonalProjects/PrimeFinder/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[PrimeCounterTest.LargeRange]=]  /home/charlie/PersonalProjects/PrimeFinder/build/tests/test_prime_counter [==[--gtest_filter=PrimeCounterTest.LargeRange]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[PrimeCounterTest.LargeRange]=]  PROPERTIES WORKING_DIRECTORY /home/charlie/PersonalProjects/PrimeFinder/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_prime_counter_TESTS PrimeCounterTest.BasicRanges PrimeCounterTest.EdgeCases PrimeCounterTest.LargeRange)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprime_counter.a CMakeFiles/prime_counter.dir/src/prime_counter.cpp.o
+/usr/bin/ranlib libprime_counter.a
